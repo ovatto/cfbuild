@@ -1,0 +1,26 @@
+{
+  "name": "cfbuild",
+  "version": "1.0.0",
+  "description": "## Install",
+  "main": "index.js",
+  "bin": {
+    "cfbuild": "./bin/cfbuild"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovatto/cfbuild.git"
+  },
+  "author": "Olli Vättö <olli.vatto@me.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ovatto/cfbuild/issues"
+  },
+  "homepage": "https://github.com/ovatto/cfbuild#readme",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "js-yaml": "^3.11.0"
+  }
+}
