@@ -1,7 +1,7 @@
 {
   "name": "cfbuild",
   "version": "1.0.0",
-  "description": "## Install",
+  "description": "CloudFormation build tool",
   "main": "index.js",
   "bin": {
     "cfbuild": "./bin/cfbuild"
@@ -14,13 +14,20 @@
     "url": "git+https://github.com/ovatto/cfbuild.git"
   },
   "author": "Olli Vättö <olli.vatto@me.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ovatto/cfbuild/issues"
   },
   "homepage": "https://github.com/ovatto/cfbuild#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
+    "archiver": "^2.1.1",
     "colors": "^1.2.1",
+    "command-line-args": "^5.0.2",
+    "fast-glob": "^2.2.0",
+    "fs-extra": "^5.0.0",
     "js-yaml": "^3.11.0"
   }
 }
