@@ -9,5 +9,5 @@ npm install -g cfbuild
 ## Usage
 
 ```sh
-cfbuild template.yaml > output.yaml
+cfbuild -t template.yaml -o output.yaml
 ```

@@ -7,6 +7,7 @@
     "cfbuild": "./bin/cfbuild"
   },
   "scripts": {
+    "validate": "standard bin/**/*.js lib/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +30,8 @@
     "fast-glob": "^2.2.0",
     "fs-extra": "^5.0.0",
     "js-yaml": "^3.11.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
   }
 }
